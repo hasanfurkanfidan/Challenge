@@ -5,12 +5,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="IOC\" />
-    <Folder Include="ValidationRules\" />
+    <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="9.3.0" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\Hff.Challenge.DataAccess\Hff.Challenge.DataAccess.csproj" />
+    <ProjectReference Include="..\Hff.Challenge.Dtos\Hff.Challenge.Dtos.csproj" />
     <ProjectReference Include="..\Hff.Challenge.Entities\Hff.Challenge.Entities.csproj" />
   </ItemGroup>
 
