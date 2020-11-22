@@ -1,0 +1,22 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@model AppUserLoginDto
+
+    <html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Login Page</title>
+        <link href="~/twitter-bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    </head>
+    <body>
+        <form  asp-action="SignIn">
+            <input asp-for="@Model.Email" class="form-control" />
+            <br />
+            <input type="password" asp-for="@Model.Password" class="form-control" />
+            <button class="btn btn-primary">Giriş yap</button>
+             
+        </form>
+    </body>
+    </html>

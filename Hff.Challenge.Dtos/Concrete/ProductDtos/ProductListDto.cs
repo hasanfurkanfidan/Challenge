@@ -13,7 +13,7 @@ namespace Hff.Challenge.Dtos.Concrete.ProductDtos
         public decimal Price { get; set; }
         public int Stock { get; set; }
         public string Trademark { get; set; }
-        public int CategoryId { get; set; }
         public Category Category { get; set; }
+
     }
 }

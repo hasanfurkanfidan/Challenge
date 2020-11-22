@@ -10,7 +10,7 @@ namespace Hff.Challenge.Business.ValidationRules.AppUserValidations
     {
         public AppUserLoginValidator()
         {
-            RuleFor(p => p.Username).NotEmpty().WithMessage("Kullanıcı adı alanı boş geçilemez");
+            RuleFor(p => p.Email).NotEmpty().WithMessage("Kullanıcı adı alanı boş geçilemez");
             RuleFor(p => p.Password).NotEmpty().WithMessage("Parola alanaı boş geçilemez");
 
         }

@@ -7,7 +7,8 @@ namespace Hff.Challenge.Dtos.Concrete.AppUserDtos
 {
     public class AppUserLoginDto : IDto
     {
-        public string Username { get; set; }
+        public string Email { get; set; }
         public string Password { get; set; }
+        public bool RememberMe { get; set; }
     }
 }

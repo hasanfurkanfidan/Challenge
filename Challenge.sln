@@ -7,9 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hff.Challenge.Entities", "H
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hff.Challenge.DataAccess", "Hff.Challenge.DataAccess\Hff.Challenge.DataAccess.csproj", "{772287DF-B221-4518-9745-19938CA842F2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hff.Challenge.Business", "Hff.Challenge.Business\Hff.Challenge.Business.csproj", "{DCF0068C-2A4E-4A6D-BC2A-D395C3B7BC18}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hff.Challenge.Business", "Hff.Challenge.Business\Hff.Challenge.Business.csproj", "{DCF0068C-2A4E-4A6D-BC2A-D395C3B7BC18}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hff.Challenge.Dtos", "Hff.Challenge.Dtos\Hff.Challenge.Dtos.csproj", "{EB86988F-5078-45ED-94A6-95E8ABB05B49}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hff.Challenge.Dtos", "Hff.Challenge.Dtos\Hff.Challenge.Dtos.csproj", "{EB86988F-5078-45ED-94A6-95E8ABB05B49}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hff.Challenge.Web", "Hff.Challenge.Web\Hff.Challenge.Web.csproj", "{254DEFFC-E676-427B-8DEF-2F0D91F782E8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{EB86988F-5078-45ED-94A6-95E8ABB05B49}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EB86988F-5078-45ED-94A6-95E8ABB05B49}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EB86988F-5078-45ED-94A6-95E8ABB05B49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{254DEFFC-E676-427B-8DEF-2F0D91F782E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{254DEFFC-E676-427B-8DEF-2F0D91F782E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{254DEFFC-E676-427B-8DEF-2F0D91F782E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{254DEFFC-E676-427B-8DEF-2F0D91F782E8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

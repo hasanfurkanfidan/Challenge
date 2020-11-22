@@ -27,10 +27,12 @@ namespace Hff.Challenge.DataAccess.Abstract
         /// <param name="keySelector"></param>
         /// <returns></returns>
         Task<List<TEntity>> GetAllAsync<TKey>(Expression<Func<TEntity,TKey>>keySelector);
+        Task<TEntity> Get(Expression<Func<TEntity, bool>> filter);
         Task AddAsync(TEntity entity);
         Task UpdateAsync(TEntity entity);
         Task DeleteAsync(TEntity entity);
 
+        
 
     }
 }

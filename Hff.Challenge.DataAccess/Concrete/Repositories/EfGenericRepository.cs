@@ -31,6 +31,14 @@ namespace Hff.Challenge.DataAccess.Concrete.Repositories
             }
         }
 
+        public async Task<TEntity> Get(Expression<Func<TEntity, bool>> filter)
+        {
+            using (var context = new ChallengeContext())
+            {
+                return await context.Set<TEntity>().Where(filter).FirstOrDefaultAsync();
+            }
+        }
+
         public async Task<List<TEntity>> GetAllAsync()
         {
             using (var context = new ChallengeContext())
@@ -54,6 +62,8 @@ namespace Hff.Challenge.DataAccess.Concrete.Repositories
                 return await context.Set<TEntity>().OrderByDescending(keySelector).ToListAsync();
             }
         }
+
+        
 
         public async Task UpdateAsync(TEntity entity)
         {
