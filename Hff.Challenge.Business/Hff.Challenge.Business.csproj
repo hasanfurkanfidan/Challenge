@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="IOC\" />
+    <Folder Include="ValidationRules\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Hff.Challenge.DataAccess\Hff.Challenge.DataAccess.csproj" />
+    <ProjectReference Include="..\Hff.Challenge.Entities\Hff.Challenge.Entities.csproj" />
+  </ItemGroup>
+
+</Project>
